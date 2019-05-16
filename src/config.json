@@ -1,0 +1,9 @@
+{
+	"path_transitions": "transitions",
+	"path_sounds": "sounds",
+	"path_music": "music",
+	"path_temp": "tmp",
+	
+	"_comment": "These get applied to any ffmpeg command that changes a video",
+	"video_gen_args": "-ac 1 -ar 44100 -vf scale=640x480"
+}
